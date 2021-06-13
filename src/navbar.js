@@ -8,6 +8,7 @@ export default function Navbar() {
   const [hover, setHover] = React.useState(false);
   return (
     <>
+      {/* باز بودن یا بسته بودن navbar */}
       {visible && (
         <div
           className="menu"
@@ -39,6 +40,7 @@ export default function Navbar() {
           <Link to="/"> خانه </Link>
         </div>
       )}
+      {/* آیکون و تکست Menu */}
       <header>
         <img src={logo} alt="logo" />
         <div
